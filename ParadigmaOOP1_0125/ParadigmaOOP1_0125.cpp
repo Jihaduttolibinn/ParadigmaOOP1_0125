@@ -10,7 +10,16 @@ private:
 	float nilai;
 
 public:
-	mahasiswa(int pid,string pNama,float pNilai) :id(pid) nama(pNama)
+	mahasiswa(int pid, string pNama, float pNilai) :id(pid), nama(pNama) {
 
-}
+	}
+
+
+
+	~mahasiswa() {
+		cout << "id   = " << id << endl;
+		cout << "Nama   = " << nama << endl;
+		cout << "Nilai   = " << nilai << endl;
+	}
+
 };

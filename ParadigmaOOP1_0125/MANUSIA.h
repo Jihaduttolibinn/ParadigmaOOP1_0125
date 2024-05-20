@@ -9,13 +9,12 @@ public:
 	jantung varJantung;
 
 	manusia(string pName)
-
-		: nama(Pname)
+		: name(pName){
 		cout << name << " hidup\n";
-}
-~manusia() {
+	}
+	~manusia() {
 	cout << name << "mati\n";
-}
+	}
 };
 #endif
 	

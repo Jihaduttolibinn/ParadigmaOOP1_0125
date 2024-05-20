@@ -2,6 +2,30 @@
 #include <string>
 using namespace std;
 
-#include "jantung.h"
-#include "manusia.h"
 
+class mahasiswa {
+private:
+	const int id;
+	string nama;
+	float nilai;
+
+public:
+	mahasiswa(int pid, string pNama, float pNilai) :id(pid), nama(pNama) {
+
+	}
+
+
+
+	~mahasiswa() {
+		cout << "id   = " << id << endl;
+		cout << "Nama   = " << nama << endl;
+		cout << "Nilai   = " << nilai << endl;
+	}
+
+};
+
+int main() {
+	mahasiswa mhs(12, " Asroni", 90.5);
+
+	return 0;
+}

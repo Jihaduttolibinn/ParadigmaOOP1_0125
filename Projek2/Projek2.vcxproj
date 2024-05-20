@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{250f7c62-0680-4890-85b2-7b846f38ba12}</ProjectGuid>
-    <RootNamespace>ParadigmaOOP10125</RootNamespace>
+    <ProjectGuid>{58aded8d-9bd0-483c-96a6-a82f399dec9b}</ProjectGuid>
+    <RootNamespace>Projek2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,10 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ParadigmaOOP1_0125.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="JANTUNG.h" />
+    <ClCompile Include="Projek2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

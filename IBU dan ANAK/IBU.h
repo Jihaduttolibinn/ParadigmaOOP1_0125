@@ -7,5 +7,6 @@ class ibu {
 	vector<anak> daftar_anak;
 
 
+
 };
 
